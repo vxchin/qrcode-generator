@@ -17,9 +17,7 @@ namespace QrCodeGenerator
             var options = new QrCodeGeneratorOptions
             {
             };
-            IQrCodeGenerationExecutor executor = new WinFormsQrCodeGenerationExecutor();
-            //var result = executor.Execute(500, 500, options);
-            Application.Run(new QrCodeGeneratorForm());
+            Application.Run(new QrCodeGeneratorForm(options));
         }
     }
 }

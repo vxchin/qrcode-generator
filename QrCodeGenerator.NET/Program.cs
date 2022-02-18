@@ -11,7 +11,10 @@ namespace QrCodeGenerator.NET
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new QrCodeGeneratorForm());
+            var options = new QrCodeGeneratorOptions
+            {
+            };
+            Application.Run(new QrCodeGeneratorForm(options));
         }
     }
 }
