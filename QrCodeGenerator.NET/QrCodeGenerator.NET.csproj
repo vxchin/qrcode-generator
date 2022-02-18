@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QrCodeGenerator.WinForms\QrCodeGenerator.WinForms.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\QrCodeGenerator\Samples\*" Link="Samples\%(Filename)%(Extension)" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>

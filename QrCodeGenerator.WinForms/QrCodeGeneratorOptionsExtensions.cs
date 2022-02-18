@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Configuration;
 
-namespace QrCodeGenerator.Internal
+namespace QrCodeGenerator.WinForms
 {
-    internal static class QrCodeGeneratorOptionsExtensions
+    public static class QrCodeGeneratorOptionsExtensions
     {
         public static void ApplyAppSettings(this QrCodeGeneratorOptions options)
         {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using QrCodeGenerator.WinForms;
 
 namespace QrCodeGenerator
 {
@@ -16,7 +17,9 @@ namespace QrCodeGenerator
             var options = new QrCodeGeneratorOptions
             {
             };
-            Application.Run(new MainForm(options));
+            IQrCodeGenerationExecutor executor = new WinFormsQrCodeGenerationExecutor();
+            //var result = executor.Execute(500, 500, options);
+            Application.Run(new QrCodeGeneratorForm());
         }
     }
 }

@@ -1,8 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net4.0;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net40;netstandard2.0</TargetFrameworks>
     <RootNamespace>QrCodeGenerator</RootNamespace>
+    <DebugType>embedded</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
