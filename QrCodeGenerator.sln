@@ -16,7 +16,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrCodeGenerator.Core", "QrC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrCodeGenerator.WinForms", "QrCodeGenerator.WinForms\QrCodeGenerator.WinForms.csproj", "{C5FE0C58-1E21-47FD-BE1A-5EC7B1E112FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QrCodeGenerator.NET", "QrCodeGenerator.NET\QrCodeGenerator.NET.csproj", "{2A9243B7-611B-4EBE-98A7-9BEA3DAD3FF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrCodeGenerator.NET", "QrCodeGenerator.NET\QrCodeGenerator.NET.csproj", "{2A9243B7-611B-4EBE-98A7-9BEA3DAD3FF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{5A3D3D22-81C3-4AA0-A955-35556E51DD19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{91035270-01F2-4CC0-8B81-5B276E999B47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F955FA25-07CF-4543-8828-6214360B6690} = {91035270-01F2-4CC0-8B81-5B276E999B47}
+		{38407CD9-3301-4ACB-ABE8-80EA7D3A1512} = {5A3D3D22-81C3-4AA0-A955-35556E51DD19}
+		{C5FE0C58-1E21-47FD-BE1A-5EC7B1E112FE} = {5A3D3D22-81C3-4AA0-A955-35556E51DD19}
+		{2A9243B7-611B-4EBE-98A7-9BEA3DAD3FF4} = {91035270-01F2-4CC0-8B81-5B276E999B47}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B11CCAB-3472-4575-9B25-3353CE39587F}
